@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link href="Index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <script src="Index.js"></script>
+  <div id="login-page">
+    <div class="login-box">
+      <!-- <h2>ZENTRADES</h2> -->
+      <img src="logo.png" alt="Logo-img" width="240px" height="40px">
+      <form id ="login-form">
+       <div class="form-group">
+        <label for="email"></label>
+        <input type = "email" id="email" name="email" placeholder="E-mail address" required>
+       </div>
+       <div class="form-group">
+        <label for="password"></label>
+        <input type = "password" id="password" name="password" placeholder="Password" required>
+       </div>
+       <div class="form-group">
+        <label for="remember">
+        <input type = "checkbox" id="remember" name="remember">
+        Remember me</label>
+       </div>
+       <button type="submit" id="sign-in-btn">Sign In</button>
+       <p id="forgot-password">Forgot your password?</p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
